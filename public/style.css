@@ -1,0 +1,314 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+.section {
+    position: absolute;
+    background-color: #aaa;
+    width: 100%;
+    height: -webkit-fill-available;
+    overflow-y: auto;
+    padding-bottom: 70px;
+
+}
+
+
+    /* NAVBAR */
+
+#navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.Ellipse_29 {
+    
+    position: absolute;
+    width: 100%;
+    height: 366px;
+    left: -48px;
+    overflow: visible;
+    
+}
+
+
+#Ellipse_29{
+    display: flex;
+    background: linear-gradient(to top right,#81248A,#a4508b);
+    position: absolute;
+    top: -232px;
+    left: 0;
+    border-radius:20%;
+    width: 100%;
+    height: 353px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+
+#appicon {
+    top: 5px;
+    position: absolute;
+    width: 50px;
+    height: 49.852px;
+    overflow: visible;
+}
+
+.Path_111 {
+    position: absolute;
+    overflow: visible;
+    width: 45px;
+    height: 49.852px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+#phoneicon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 12.381px;
+    top: 12.389px;
+    overflow: visible;
+
+}
+
+.Rectangle_320 {
+    position: absolute;
+    overflow: visible;
+    fill: transparent;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.Path_110 {
+    fill: rgba(255,255,255,1);
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+
+h1 {
+   
+    top: 65px;
+    position: absolute;
+    overflow: visible;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24Px;
+    text-transform: capitalize;
+    color: rgba(255,255,255,1);
+}
+       /*  */
+
+
+       
+
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 121px;
+    margin-bottom: 20px;
+   
+}
+
+
+
+
+.receivemessage {
+
+    float: left;
+    clear: both;
+    width: fit-content;
+    background-color: rgba(129,36,138,1);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(236,239,241,1);
+    padding: 10px;
+    margin-left: 16px;
+    margin-right: 40%;
+    margin-top: 5px;
+    border-radius: 0px 15px 0px 15px;
+
+   
+}
+
+
+
+
+.mymessage {
+   
+    float: right;
+    clear: both;
+    width: fit-content;
+    background-color:  rgba(225,12,137,1);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(236,239,241,1);
+    padding: 10px;
+    margin-right: 16px;
+    margin-left: 40%;
+    margin-top: 5px;
+    border-radius: 15px 0px 15px 0px;
+
+}
+
+
+
+
+
+
+#sendmessage {
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    bottom: 20px;
+    text-align: center;
+    overflow: visible;
+
+    
+}
+
+#messageinp {
+    position: relative;
+    width: 500px;
+    height: auto;
+    border-radius: 24px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    overflow: scroll;
+
+}
+
+#messageinp:focus,#messageinp:valid {
+    outline: none; 
+    padding-left: 15px;
+
+}
+
+
+
+
+#sendbutton {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    fill: rgba(225,12,137,1);
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: visible;
+    margin-right: 5px;
+
+}
+
+
+#sendbutton:hover{
+    fill: rgb(184, 12, 106);
+}
+
+
+#sendbutton:focus{
+    outline: none; 
+
+}
+
+
+.button_rectangle {
+   
+    overflow: visible;
+    width: 45px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
+
+#button_path {
+    fill: rgba(255,255,255,1);
+}
+.button_path {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 13.745px;
+    top: 13px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#message-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width:500px){
+    h1{
+        position: absolute;
+        top: 65px;
+        font-size: 18px;
+    }
+
+    .Path_111{
+        width: 40px;
+        height: 42px;
+    }
+    .Path_110{
+    width: 17px;
+    height: 17px;
+    }
+
+
+    .receivemessage{
+        margin-right: 20%;
+        padding: 8px;
+    }
+
+    .mymessage{
+        margin-left: 20%;
+        padding: 8px;
+    }
+
+  
+}
+   
